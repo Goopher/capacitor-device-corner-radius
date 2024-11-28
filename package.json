@@ -1,6 +1,6 @@
 {
   "name": "device-corner-radius-capacitor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This plugin gets the corner radius of the current device",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
