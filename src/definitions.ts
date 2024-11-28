@@ -1,3 +1,5 @@
+import { CornerRadius } from "./web";
+
 export interface DeviceCornerRadiusPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  getCornerRadius(): Promise<CornerRadius>;
 }

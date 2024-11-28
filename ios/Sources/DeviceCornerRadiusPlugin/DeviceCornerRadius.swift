@@ -1,8 +1,8 @@
 import Foundation
 
 @objc public class DeviceCornerRadius: NSObject {
-    @objc public func echo(_ value: String) -> String {
-        print(value)
-        return value
+
+    @objc func getCornerRadius() -> Float {
+        return Float(UIScreen.main.displayCornerRadius)
     }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "device-corner-radius",
+  "name": "@goopher/capacitor-device-corner-radius",
   "version": "0.0.1",
   "description": "This plugin gets the corner radius of the current device",
   "main": "dist/plugin.cjs.js",
