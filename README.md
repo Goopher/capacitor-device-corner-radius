@@ -1,4 +1,4 @@
-# capacitor-device-corner-radius
+# device-corner-radius-capacitor
 
 This plugin gets the corner radius of the current device
 

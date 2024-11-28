@@ -2,27 +2,27 @@
 import PackageDescription
 
 let package = Package(
-    name: "DeviceCornerRadius",
+    name: "DeviceCornerRadiusCapacitor",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "DeviceCornerRadius",
-            targets: ["DeviceCornerRadiusPlugin"])
+            name: "DeviceCornerRadiusCapacitor",
+            targets: ["DeviceCornerRadiusCapacitorPlugin"])
     ],
     dependencies: [
         .package(url: "https://github.com/ionic-team/capacitor-swift-pm.git", branch: "main")
     ],
     targets: [
         .target(
-            name: "DeviceCornerRadiusPlugin",
+            name: "DeviceCornerRadiusCapacitorPlugin",
             dependencies: [
                 .product(name: "Capacitor", package: "capacitor-swift-pm"),
                 .product(name: "Cordova", package: "capacitor-swift-pm")
             ],
-            path: "ios/Sources/DeviceCornerRadiusPlugin"),
+            path: "ios/Sources/DeviceCornerRadiusCapacitorPlugin"),
         .testTarget(
-            name: "DeviceCornerRadiusPluginTests",
-            dependencies: ["DeviceCornerRadiusPlugin"],
-            path: "ios/Tests/DeviceCornerRadiusPluginTests")
+            name: "DeviceCornerRadiusCapacitorPluginTests",
+            dependencies: ["DeviceCornerRadiusCapacitorPlugin"],
+            path: "ios/Tests/DeviceCornerRadiusCapacitorPluginTests")
     ]
 )
