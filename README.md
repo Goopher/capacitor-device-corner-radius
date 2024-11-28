@@ -5,7 +5,7 @@ This plugin gets the corner radius of the current device
 ## Install
 
 ```bash
-npm install @goopher/capacitor-device-corner-radius
+npm install cpacitor-device-corner-radius
 npx cap sync
 ```
 
